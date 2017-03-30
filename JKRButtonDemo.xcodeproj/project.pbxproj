@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431653481E821D550082F064 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 431653471E821D550082F064 /* main.m */; };
+		4316534B1E821D550082F064 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4316534A1E821D550082F064 /* AppDelegate.m */; };
+		4316534E1E821D550082F064 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4316534D1E821D550082F064 /* ViewController.m */; };
+		431653511E821D550082F064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4316534F1E821D550082F064 /* Main.storyboard */; };
+		431653531E821D550082F064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431653521E821D550082F064 /* Assets.xcassets */; };
+		431653561E821D550082F064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431653541E821D550082F064 /* LaunchScreen.storyboard */; };
+		431653611E821D550082F064 /* JKRButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 431653601E821D550082F064 /* JKRButtonDemoTests.m */; };
+		4316536C1E821D550082F064 /* JKRButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4316536B1E821D550082F064 /* JKRButtonDemoUITests.m */; };
+		4316537B1E821D8F0082F064 /* JKRButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4316537A1E821D8F0082F064 /* JKRButton.m */; };
+		431653841E8225AF0082F064 /* JKRTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 431653831E8225AF0082F064 /* JKRTapGestureRecognizer.m */; };
+		431653D81E84FC630082F064 /* NSObject+JKR_RunTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 431653D71E84FC630082F064 /* NSObject+JKR_RunTime.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4316535D1E821D550082F064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4316533B1E821D550082F064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431653421E821D550082F064;
+			remoteInfo = JKRButtonDemo;
+		};
+		431653681E821D550082F064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4316533B1E821D550082F064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431653421E821D550082F064;
+			remoteInfo = JKRButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		431653431E821D550082F064 /* JKRButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKRButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		431653471E821D550082F064 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		431653491E821D550082F064 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4316534A1E821D550082F064 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4316534C1E821D550082F064 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4316534D1E821D550082F064 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		431653501E821D550082F064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		431653521E821D550082F064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		431653551E821D550082F064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		431653571E821D550082F064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4316535C1E821D550082F064 /* JKRButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431653601E821D550082F064 /* JKRButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRButtonDemoTests.m; sourceTree = "<group>"; };
+		431653621E821D550082F064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431653671E821D550082F064 /* JKRButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKRButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4316536B1E821D550082F064 /* JKRButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRButtonDemoUITests.m; sourceTree = "<group>"; };
+		4316536D1E821D550082F064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431653791E821D8F0082F064 /* JKRButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRButton.h; sourceTree = "<group>"; };
+		4316537A1E821D8F0082F064 /* JKRButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRButton.m; sourceTree = "<group>"; };
+		431653821E8225AF0082F064 /* JKRTapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKRTapGestureRecognizer.h; sourceTree = "<group>"; };
+		431653831E8225AF0082F064 /* JKRTapGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKRTapGestureRecognizer.m; sourceTree = "<group>"; };
+		431653D61E84FC630082F064 /* NSObject+JKR_RunTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JKR_RunTime.h"; sourceTree = "<group>"; };
+		431653D71E84FC630082F064 /* NSObject+JKR_RunTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JKR_RunTime.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431653401E821D550082F064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431653591E821D550082F064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431653641E821D550082F064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4316533A1E821D550082F064 = {
+			isa = PBXGroup;
+			children = (
+				431653451E821D550082F064 /* JKRButtonDemo */,
+				4316535F1E821D550082F064 /* JKRButtonDemoTests */,
+				4316536A1E821D550082F064 /* JKRButtonDemoUITests */,
+				431653441E821D550082F064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431653441E821D550082F064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431653431E821D550082F064 /* JKRButtonDemo.app */,
+				4316535C1E821D550082F064 /* JKRButtonDemoTests.xctest */,
+				431653671E821D550082F064 /* JKRButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431653451E821D550082F064 /* JKRButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				431653491E821D550082F064 /* AppDelegate.h */,
+				4316534A1E821D550082F064 /* AppDelegate.m */,
+				4316534C1E821D550082F064 /* ViewController.h */,
+				4316534D1E821D550082F064 /* ViewController.m */,
+				431653D61E84FC630082F064 /* NSObject+JKR_RunTime.h */,
+				431653D71E84FC630082F064 /* NSObject+JKR_RunTime.m */,
+				431653791E821D8F0082F064 /* JKRButton.h */,
+				4316537A1E821D8F0082F064 /* JKRButton.m */,
+				431653821E8225AF0082F064 /* JKRTapGestureRecognizer.h */,
+				431653831E8225AF0082F064 /* JKRTapGestureRecognizer.m */,
+				4316534F1E821D550082F064 /* Main.storyboard */,
+				431653521E821D550082F064 /* Assets.xcassets */,
+				431653541E821D550082F064 /* LaunchScreen.storyboard */,
+				431653571E821D550082F064 /* Info.plist */,
+				431653461E821D550082F064 /* Supporting Files */,
+			);
+			path = JKRButtonDemo;
+			sourceTree = "<group>";
+		};
+		431653461E821D550082F064 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				431653471E821D550082F064 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4316535F1E821D550082F064 /* JKRButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				431653601E821D550082F064 /* JKRButtonDemoTests.m */,
+				431653621E821D550082F064 /* Info.plist */,
+			);
+			path = JKRButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		4316536A1E821D550082F064 /* JKRButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4316536B1E821D550082F064 /* JKRButtonDemoUITests.m */,
+				4316536D1E821D550082F064 /* Info.plist */,
+			);
+			path = JKRButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431653421E821D550082F064 /* JKRButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431653701E821D550082F064 /* Build configuration list for PBXNativeTarget "JKRButtonDemo" */;
+			buildPhases = (
+				4316533F1E821D550082F064 /* Sources */,
+				431653401E821D550082F064 /* Frameworks */,
+				431653411E821D550082F064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKRButtonDemo;
+			productName = JKRButtonDemo;
+			productReference = 431653431E821D550082F064 /* JKRButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4316535B1E821D550082F064 /* JKRButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431653731E821D550082F064 /* Build configuration list for PBXNativeTarget "JKRButtonDemoTests" */;
+			buildPhases = (
+				431653581E821D550082F064 /* Sources */,
+				431653591E821D550082F064 /* Frameworks */,
+				4316535A1E821D550082F064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4316535E1E821D550082F064 /* PBXTargetDependency */,
+			);
+			name = JKRButtonDemoTests;
+			productName = JKRButtonDemoTests;
+			productReference = 4316535C1E821D550082F064 /* JKRButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		431653661E821D550082F064 /* JKRButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431653761E821D550082F064 /* Build configuration list for PBXNativeTarget "JKRButtonDemoUITests" */;
+			buildPhases = (
+				431653631E821D550082F064 /* Sources */,
+				431653641E821D550082F064 /* Frameworks */,
+				431653651E821D550082F064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				431653691E821D550082F064 /* PBXTargetDependency */,
+			);
+			name = JKRButtonDemoUITests;
+			productName = JKRButtonDemoUITests;
+			productReference = 431653671E821D550082F064 /* JKRButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4316533B1E821D550082F064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tronsis_ios;
+				TargetAttributes = {
+					431653421E821D550082F064 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					4316535B1E821D550082F064 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 431653421E821D550082F064;
+					};
+					431653661E821D550082F064 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 431653421E821D550082F064;
+					};
+				};
+			};
+			buildConfigurationList = 4316533E1E821D550082F064 /* Build configuration list for PBXProject "JKRButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4316533A1E821D550082F064;
+			productRefGroup = 431653441E821D550082F064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431653421E821D550082F064 /* JKRButtonDemo */,
+				4316535B1E821D550082F064 /* JKRButtonDemoTests */,
+				431653661E821D550082F064 /* JKRButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		431653411E821D550082F064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431653561E821D550082F064 /* LaunchScreen.storyboard in Resources */,
+				431653531E821D550082F064 /* Assets.xcassets in Resources */,
+				431653511E821D550082F064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4316535A1E821D550082F064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431653651E821D550082F064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4316533F1E821D550082F064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4316534E1E821D550082F064 /* ViewController.m in Sources */,
+				431653D81E84FC630082F064 /* NSObject+JKR_RunTime.m in Sources */,
+				4316537B1E821D8F0082F064 /* JKRButton.m in Sources */,
+				431653841E8225AF0082F064 /* JKRTapGestureRecognizer.m in Sources */,
+				4316534B1E821D550082F064 /* AppDelegate.m in Sources */,
+				431653481E821D550082F064 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431653581E821D550082F064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431653611E821D550082F064 /* JKRButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431653631E821D550082F064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4316536C1E821D550082F064 /* JKRButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4316535E1E821D550082F064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 431653421E821D550082F064 /* JKRButtonDemo */;
+			targetProxy = 4316535D1E821D550082F064 /* PBXContainerItemProxy */;
+		};
+		431653691E821D550082F064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 431653421E821D550082F064 /* JKRButtonDemo */;
+			targetProxy = 431653681E821D550082F064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4316534F1E821D550082F064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431653501E821D550082F064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		431653541E821D550082F064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431653551E821D550082F064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4316536E1E821D550082F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4316536F1E821D550082F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		431653711E821D550082F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		431653721E821D550082F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKRButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		431653741E821D550082F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRButtonDemo.app/JKRButtonDemo";
+			};
+			name = Debug;
+		};
+		431653751E821D550082F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKRButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKRButtonDemo.app/JKRButtonDemo";
+			};
+			name = Release;
+		};
+		431653771E821D550082F064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRButtonDemo;
+			};
+			name = Debug;
+		};
+		431653781E821D550082F064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKRButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joker.JKRButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKRButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4316533E1E821D550082F064 /* Build configuration list for PBXProject "JKRButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4316536E1E821D550082F064 /* Debug */,
+				4316536F1E821D550082F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431653701E821D550082F064 /* Build configuration list for PBXNativeTarget "JKRButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431653711E821D550082F064 /* Debug */,
+				431653721E821D550082F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431653731E821D550082F064 /* Build configuration list for PBXNativeTarget "JKRButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431653741E821D550082F064 /* Debug */,
+				431653751E821D550082F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431653761E821D550082F064 /* Build configuration list for PBXNativeTarget "JKRButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431653771E821D550082F064 /* Debug */,
+				431653781E821D550082F064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4316533B1E821D550082F064 /* Project object */;
+}
